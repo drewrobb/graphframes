@@ -17,7 +17,7 @@
 
 package org.graphframes
 
-import com.typesafe.scalalogging.slf4j.LazyLogging
+import com.typesafe.scalalogging.LazyLogging
 
 // This needs to be accessible to org.apache.spark.graphx.lib.backport
 private[org] trait Logging extends LazyLogging {
